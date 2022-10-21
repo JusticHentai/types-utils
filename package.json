@@ -1,7 +1,7 @@
 {
   "name": "@justichentai/utils-monorepo",
   "version": "1.0.0",
-  "description": "类型工具",
+  "description": "类型工具库",
   "repository": {
     "type": "git",
     "url": "https://github.com/JusticHentai/types-utils"
@@ -10,7 +10,7 @@
   "author": "justichentai",
   "main": "index.ts",
   "scripts": {},
-  "devDependencies": {
-    "typescript": "^4.6.3"
+  "dependencies": {
+    "typescript": "^4.8.4"
   }
 }
