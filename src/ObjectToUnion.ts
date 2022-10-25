@@ -1,6 +1,6 @@
 /**
  * 接口转联合对象
  */
-type ObjectToUnion<T> = keyof T
+type ObjectToUnion<T extends Object> = keyof T
 
 export default ObjectToUnion

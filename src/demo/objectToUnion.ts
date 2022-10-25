@@ -3,6 +3,7 @@ import ObjectToUnion from '../ObjectToUnion'
 const list = {
   test1: '',
   test2: 1,
+  1: '',
 }
 
 type Test1 = ObjectToUnion<typeof list>
