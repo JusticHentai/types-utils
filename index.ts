@@ -3,13 +3,16 @@ import Await from './src/Await'
 import Concat from './src/Concat'
 import DeepReadonly from './src/DeepReadonly'
 import Equal from './src/Equal'
-import { default as Exclude, default as MyExclude } from './src/Exclude'
+import MyExclude from './src/Exclude'
 import Expand from './src/Expand'
 import First from './src/First'
+import MyFunction from './src/Function'
 import If from './src/If'
 import Includes from './src/Includes'
+import InnerOptions from './src/InnerOptions'
 import Length from './src/Length'
 import Merge from './src/Merge'
+import ObjectToUnion from './src/ObjectToUnion'
 import MyOmit from './src/Omit'
 import MyParameters from './src/Parameters'
 import Pick from './src/Pick'
@@ -30,7 +33,6 @@ export {
   If,
   Concat,
   Equal,
-  Exclude,
   Includes,
   Push,
   MyParameters,
@@ -39,4 +41,7 @@ export {
   DeepReadonly,
   Merge,
   Expand,
+  MyFunction,
+  InnerOptions,
+  ObjectToUnion,
 }
