@@ -1,47 +1,23 @@
-import ApiMap from './src/ApiMap'
-import Await from './src/Await'
-import Concat from './src/Concat'
-import DeepReadonly from './src/DeepReadonly'
-import Equal from './src/Equal'
-import MyExclude from './src/Exclude'
-import Expand from './src/Expand'
-import First from './src/First'
-import MyFunction from './src/Function'
-import If from './src/If'
-import Includes from './src/Includes'
-import InnerOptions from './src/InnerOptions'
-import Length from './src/Length'
-import Merge from './src/Merge'
-import ObjectToUnion from './src/ObjectToUnion'
-import MyOmit from './src/Omit'
-import MyParameters from './src/Parameters'
-import Pick from './src/Pick'
-import Push from './src/Push'
-import Readonly from './src/Readonly'
-import MyReturnType from './src/ReturnType'
-import TupleToObject from './src/TupleToObject'
-
-export {
-  ApiMap,
-  Await,
-  Pick,
-  Readonly,
-  TupleToObject,
-  First,
-  Length,
-  MyExclude,
-  If,
-  Concat,
-  Equal,
-  Includes,
-  Push,
-  MyParameters,
-  MyReturnType,
-  MyOmit,
-  DeepReadonly,
-  Merge,
-  Expand,
-  MyFunction,
-  InnerOptions,
-  ObjectToUnion,
-}
+export { default as ApiMap } from './src/ApiMap'
+export { default as Await } from './src/Await'
+export { default as Concat } from './src/Concat'
+export { default as DeepReadonly } from './src/DeepReadonly'
+export { default as Equal } from './src/Equal'
+export { default as IExclude } from './src/Exclude'
+export { default as Expand } from './src/Expand'
+export { default as First } from './src/First'
+export { default as IFunction } from './src/Function'
+export { default as If } from './src/If'
+export { default as Includes } from './src/Includes'
+export { default as InnerOptions } from './src/InnerOptions'
+export { default as IObject } from './src/IObject'
+export { default as Length } from './src/Length'
+export { default as Merge } from './src/Merge'
+export { default as ObjectToUnion } from './src/ObjectToUnion'
+export { default as IOmit } from './src/Omit'
+export { default as Parameters } from './src/Parameters'
+export { default as Pick } from './src/Pick'
+export { default as Push } from './src/Push'
+export { default as Readonly } from './src/Readonly'
+export { default as ReturnType } from './src/ReturnType'
+export { default as TupleToObject } from './src/TupleToObject'
