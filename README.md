@@ -219,3 +219,13 @@ type Test = TupleToUnion<Arr> // expected to be '1' | '2' | '3'
   
 const test1: Test = '1'
 ```
+
+### IObject
+
+- 基础对象类型，没啥特别的
+
+```ts
+import { IObject } from '@justichentai/types-utils' 
+
+const obj: IObject = {}
+```
