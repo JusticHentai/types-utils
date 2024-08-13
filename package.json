@@ -2,15 +2,18 @@
   "name": "@justichentai/types-utils",
   "version": "1.0.0",
   "description": "类型工具库",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JusticHentai/types-utils"
-  },
   "license": "ISC",
   "author": "justichentai",
+  "type": "module",
   "main": "index.ts",
-  "scripts": {},
+  "types": "index.ts",
+  "files": [
+    "index.ts",
+    "src",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
-    "typescript": "^4.8.4"
+    "typescript": "^5.5.4"
   }
 }
